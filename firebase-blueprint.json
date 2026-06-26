@@ -1,0 +1,35 @@
+{
+  "collections": [
+    {
+      "collection_id": "users",
+      "description": "Stores user profiles including their roles (user, owner/moderator)",
+      "documents": [
+        {
+          "document_id": "USER_ID",
+          "fields": [
+            {
+              "name": "email",
+              "type": "string",
+              "description": "User's email address"
+            },
+            {
+              "name": "role",
+              "type": "string",
+              "description": "User's role: 'user' or 'admin'"
+            },
+            {
+              "name": "displayName",
+              "type": "string",
+              "description": "User's display name"
+            },
+            {
+              "name": "createdAt",
+              "type": "timestamp",
+              "description": "When the user was created"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

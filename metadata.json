@@ -1,0 +1,6 @@
+{
+  "name": "Smartify",
+  "description": "A modern lifestyle brand specializing in fitness products, gym equipment, smart gadgets, and electronics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

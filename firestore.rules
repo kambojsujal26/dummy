@@ -1,0 +1,51 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} { 
+      allow read, write: if false; 
+    }
+    
+    function isValidId(id) { 
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$'); 
+    }
+    function incoming() { return request.resource.data; }
+    function existing() { return resource.data; }
+    function isSignedIn() { return request.auth != null; }
+    function isAdmin() { 
+      return isSignedIn() && (request.auth.token.email == "kambojsujal26@gmail.com" || exists(/databases/$(database)/documents/admins/$(request.auth.uid))); 
+    }
+    
+    function isValidUser(data) {
+      return data.keys().hasAll(['email', 'role', 'displayName', 'createdAt']) &&
+             data.keys().size() == 4 &&
+             (data.email is string || data.email == null) &&
+             data.role is string && data.role in ['user', 'owner', 'moderator'] &&
+             (data.displayName is string || data.displayName == null) &&
+             data.createdAt is timestamp;
+    }
+
+    match /users/{userId} {
+      allow read: if isSignedIn() && (userId == request.auth.uid || isAdmin());
+      
+      allow create: if isSignedIn() && 
+                    isValidId(userId) && 
+                    userId == request.auth.uid && 
+                    isValidUser(incoming()) && 
+                    (incoming().role == 'user' || isAdmin()) && 
+                    incoming().createdAt == request.time;
+                    
+      allow update: if isSignedIn() && 
+                    userId == request.auth.uid &&
+                    isValidUser(incoming()) &&
+                    incoming().createdAt == existing().createdAt &&
+                    incoming().email == existing().email &&
+                    (incoming().role == existing().role || isAdmin()) &&
+                    incoming().diff(existing()).affectedKeys().hasOnly(['displayName', 'role']);
+    }
+    
+    match /admins/{adminId} {
+      allow read: if isSignedIn();
+      allow write: if false;
+    }
+  }
+}

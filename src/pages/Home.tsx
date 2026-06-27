@@ -28,6 +28,7 @@ export function Home() {
         <title>Buy Best Fitness Products & Smart Gadgets Online in India | Smartify</title>
         <meta name="description" content="Looking for the best fitness products online in India? Shop premium gym equipment online, affordable smart gadgets, and fitness accessories for home workouts at Smartify." />
         <meta name="keywords" content="fitness products online, gym equipment online, smart gadgets online, fitness accessories online, electronic gadgets online" />
+        <link rel="canonical" href="https://dummy-smartify.vercel.app/"/>
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",

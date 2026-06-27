@@ -2,131 +2,131 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Main Pages -->
   <url>
-    <loc>https://smartify.netlify.app/</loc>
+    <loc>https://dummy-smartify.vercel.app/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/about</loc>
+    <loc>https://dummy-smartify.vercel.app/about</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/products</loc>
+    <loc>https://dummy-smartify.vercel.app/products</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/blog</loc>
+    <loc>https://dummy-smartify.vercel.app/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/contact</loc>
+    <loc>https://dummy-smartify.vercel.app/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/cart</loc>
+    <loc>https://dummy-smartify.vercel.app/cart</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/login</loc>
+    <loc>https://dummy-smartify.vercel.app/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/profile</loc>
+    <loc>https://dummy-smartify.vercel.app/profile</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <!-- Products -->
   <url>
-    <loc>https://smartify.netlify.app/product/adjustable-dumbbells</loc>
+    <loc>https://dummy-smartify.vercel.app/product/adjustable-dumbbells</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/bench-press</loc>
+    <loc>https://dummy-smartify.vercel.app/product/bench-press</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/treadmill</loc>
+    <loc>https://dummy-smartify.vercel.app/product/treadmill</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/kettlebells</loc>
+    <loc>https://dummy-smartify.vercel.app/product/kettlebells</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/resistance-bands</loc>
+    <loc>https://dummy-smartify.vercel.app/product/resistance-bands</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/yoga-mat</loc>
+    <loc>https://dummy-smartify.vercel.app/product/yoga-mat</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/jump-rope</loc>
+    <loc>https://dummy-smartify.vercel.app/product/jump-rope</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/foam-roller</loc>
+    <loc>https://dummy-smartify.vercel.app/product/foam-roller</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/whey-protein</loc>
+    <loc>https://dummy-smartify.vercel.app/product/whey-protein</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/creatine</loc>
+    <loc>https://dummy-smartify.vercel.app/product/creatine</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/pre-workout</loc>
+    <loc>https://dummy-smartify.vercel.app/product/pre-workout</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/smart-watch</loc>
+    <loc>https://dummy-smartify.vercel.app/product/smart-watch</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/fitness-tracker</loc>
+    <loc>https://dummy-smartify.vercel.app/product/fitness-tracker</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/product/smart-scale</loc>
+    <loc>https://dummy-smartify.vercel.app/product/smart-scale</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Blog Posts -->
   <url>
-    <loc>https://smartify.netlify.app/blog/top-smart-gadgets</loc>
+    <loc>https://dummy-smartify.vercel.app/blog/top-smart-gadgets</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/blog/home-workout-equipment</loc>
+    <loc>https://dummy-smartify.vercel.app/blog/home-workout-equipment</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://smartify.netlify.app/blog/fitness-tech-trends</loc>
+    <loc>https://dummy-smartify.vercel.app/blog/fitness-tech-trends</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

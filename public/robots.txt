@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://smartify.com/sitemap.xml
+Sitemap: https://dummy-smartify.vercel.app/sitemap.xml
